@@ -2,27 +2,29 @@ import React from 'react'
 import Menu from './Menu'
 import Dsimg from './img/Datascience.png'
 import {Link} from 'react-router-dom'
+import ds4 from './img/ds-4.webp'
+import ds5 from './img/ds-5.webp'
+import ds6 from './img/ds-6.png'
 const card = [
   {
-
     id: 4,
-    domain: "DS",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/06/VMWARE-Vs-VIRTUAL-BOX-2048x1152.png",
+    domain: "Datascience",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
     title: "VMware vs VirtualBox: Picking the Right Hypervisor for Virtualisation",
-    description: "In today&#180;s fast-paced world, where technology is evolving at an unprecedented rate, virtualization has emerged"
+    description: "Fast-paced world, where technology is evolving at an unprecedented rate, virtualization has emerged"
   },
   {
     id: 5,
-    domain: "DS",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/05/Beginner-mistakes-in-data-science-career.webp",
+    domain: "Datascience",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
     title: "8 Mistakes To Avoid When You Begin a Data Science Career",
     description: "With leading modern-day companies relying on Data Science professionals to make more informed decisions and"
   },
   {
     id: 6,
-    domain: "DS",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/04/image-5.png",
-    title: "Data Science vs. Machine Learning: What every elite coder needs to know",
+    domain: "Datascience",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
+    title: "Data Science vs. Machine Learning",
     description: "As the world becomes increasingly data-driven, the demand for professionals who can analyze and interpret"
   },
 ]

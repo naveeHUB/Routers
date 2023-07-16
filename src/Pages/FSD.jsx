@@ -2,6 +2,8 @@ import React from 'react'
 import img from './img/FSDimg.png'
 import Menu from './Menu'
 import {Link} from 'react-router-dom'
+import fimage2 from './img/fsd-2.png'
+import fimage3 from './img/fsd-3.webp'
 const card = [
   {
     id: 1,
@@ -13,16 +15,16 @@ const card = [
   {
     id: 2,
     domain: "FSD",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/06/software-engineering-internships.png",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
     title: "7 Powerful Steps to Land a Software Developer Internship",
-    description: "Software development is set to grow at the rate of 25% between 2021-2031. An illustrious"
+    description: "Software development is set to grow at the rate of 25% between 2021-2031"
   },
   {
     id: 3,
     domain: "FSD",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/05/Screenshot-2023-05-09-at-4.13.14-AM.png",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
     title: "Top 26 Hibernate Interview Questions and Answers (2023)",
-    description: "If you&#180;re at a technical job interview, the last thing you want is to get"
+    description: "If you are at a technical job interview, the last thing you want is to get"
   },
 ]
 function FSD() {

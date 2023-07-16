@@ -1,28 +1,31 @@
 import React from 'react'
 import Menu from './Menu'
 import {Link} from 'react-router-dom'
+import career11 from './img/career-11.jpg'
+import career12 from './img/career-12.webp'
+import careers10 from './img/careers-10.jpg'
 const card = [
-  {
-    id: 10,
-    domain: "Career",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/06/what-is-production-management.jpg",
-    title: "What is Production Management | The Ultimate Guide",
-    description: "In today’s constantly evolving business landscape, production managers are essential to the success of any"
-  },
-  {
-    id: 11,
-    domain: "Career",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/06/TCS-NQT-EXAM-2023.jpg",
-    title: "What is TCS NQT | Everything You Need to Know",
-    description: "As a fresh graduate, your goal is to join a reputable company and start your"
-  },
-  {
-    id: 12,
-    domain: "Career",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2023/06/machine-learning-cover-internship.png",
-    title: "7 Powerful Steps to Land a Machine Learning Internship",
-    description: "Machine learning is set to grow at the rate of 36.2% CAGR by the end"
-  }
+    {
+      id: 10,
+      domain: "Career",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
+      title: "What is Production Management | The Ultimate Guide",
+      description: "constantly evolving business landscape, production managers are essential "
+    },
+    {
+      id: 11,
+      domain: "Career",
+      image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
+      title: "What is TCS NQT | Everything You Need to Know",
+      description: "As a fresh graduate, your goal is to join a reputable company and start your"
+    },
+    {
+      id: 12,
+      domain: "Career",
+      image:"https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
+      title: "7 Powerful Steps to Land a Machine Learning Internship",
+      description: "Machine learning is set to grow at the rate of 36.2% CAGR by the end"
+    }
 ]
 function Career() {
   return (

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from './img/Guvi-blog-logo.png'
 function Header() {
   return (
     <div className='row'>
       <div className='d-flex justify-content-end col-2'>
-        <img src='https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png' className='pt-2 ' />
+        <img src={Logo} className='pt-2 ' />
       </div>
       <div className='d-flex justify-content-end flex-wrap col-8'>
         <Link id='links' to="/Courses"><p className='pt-4 mx-4'>COURSES</p></Link>

@@ -1,29 +1,31 @@
 import React from 'react'
 import Menu from './Menu'
 import {Link} from 'react-router-dom'
+import cb7 from './img/cb-7.png'
+import cb9 from './img/cb-9.webp'
+import cybersecuity8 from './img/cybersecuity-8.gif'
 const card = [
   {
     id: 7,
     domain: "CyberSecurity",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-2048x1152.png",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
     title: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
     description: "Cybersecurity & Ethical hacking and have been key in making sure that your data online"
   },
   {
     id: 8,
     domain: "CyberSecurity",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
     title: "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
-    description: "Look around today, you will witness that we are more reliant on technology and devices"
+    description: "Look around today, you will witness that we are more reliant on technology"
   },
   {
     id: 9,
     domain: "CyberSecurity",
-    image: "https://www.guvi.in/blog/wp-content/uploads/2022/11/Blue-Purple-Futuristic-Virus-Hacks-Youtube-Thumbnail.png",
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/07/roles_and_responsibilities_of_full_stack_developer_1x.webp",
     title: "Top 10 Ethical Hacking Books for Beginner to Advanced",
     description: "Did you know that according to the University of Maryland hackers attack every 39 seconds"
-  },
- 
+  }
 ]
 function CyberSecurity() {
   return (
