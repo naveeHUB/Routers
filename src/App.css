@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+p{
+ padding: 0 !important ;
+ margin: 0 !important ;
+ font-weight:lighter gray; 
+ text-transform: uppercase !important;
+}
+
+#links{
+  text-decoration:none;
+  border:none;
+  color:black;
+  }
+  #links:hover{
+    color:#0dba4b;
+  }
